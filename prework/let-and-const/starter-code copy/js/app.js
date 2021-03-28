@@ -35,8 +35,9 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
   // PUT YOUR RESPONSE IN THIS COMMENT
+  //because let declare the rando inside the function and let declarations can only be accessed within the block they were declared. and we console log it out the function, so it will consider it as undefined.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
